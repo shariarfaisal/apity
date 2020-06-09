@@ -5,71 +5,12 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>POS Data Modal</title>
+    <title>Apity</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="app">
-      <div class="row w-100 m-0 h-100">
-        <div id="items_container" class="col-md-4 p-0 col-xl-3 border-right border-bottom">
 
-          <!-- Create Item Section Start... -->
-          <div class="header p-2 d-flex justify-content-between border-bottom  align-items-center">
-            <button data-toggle="modal" data-target="#createItemModal" type="button" class="btn btn-sm btn-success border btn-circle ml-3"><i class="fa fa-plus"></i></button>
-            <button id="progress_btn" type="button" class="btn btn-sm btn-light border px-3 d-md-none" name="button"><i class="fa fa-list-ul"></i></button>
-            <div class="modal" id="createItemModal">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <form name="createNew" method="post">
-                      <div class="form-group">
-                        <small class="create_item_error text-danger"></small>
-                        <input required type="text" class="form-control form-control-sm" name="name" placeholder="Item Name">
-                      </div>
-                      <div class="d-flex justify-content-end">
-                        <button type="button" class="dismiss btn btn-sm btn-light border font-6" data-dismiss="modal" name="button">Close</button>
-                        <button name="submit" type="submit" class="mx-3 btn btn-sm btn-light border font-6" name="button">Submit</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Create Item Section End... -->
-
-          <!-- Side Bar  Item List-->
-          <div id="items_list" class=" d-none d-md-block list-group p-2 customScroll">
-            <!-- Contents ... -->
-          </div>
-        </div>
-
-        <!-- Content Section  star-->
-        <div id="item_container" class="col-md-8 px-0 col-xl-9 h-100">
-          <div id="contents" class="w-100 px-4 h-100">
-
-
-            <!-- Home Page Contents start... -->
-            <div class="jumbotron mt-3 d-flex align-items-center justify-content-center" style="height: 93vh;">
-              <div class="">
-                <h1 style="color: #d5dadf;">
-                  <span><<code style="color: #b6bdc3;">Follow Your Dreams</code>/></span>
-                </h1>
-                <code><small style="color: #b6bdc3;" class="text-center d-block">https://github.com/shariarfaisal/apity</small><code>
-                <div class="d-flex mt-2 justify-content-center">
-                  <span class="mx-1 bg-light rounded"><p class="px-3 mb-0 pointer text-info" id="import_data">import</p></span>
-                  <span class="mx-1 bg-light rounded"><p class="px-3 mb-0 pointer" id="export_data">export</p></span>
-                </div>
-              </div>
-            </div>
-            <!-- Home page contents end  -->
-
-
-          </div>
-        </div>
-        <!-- Content Section end  -->
-      </div>
-    </div>
+    <div class="app"></div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
